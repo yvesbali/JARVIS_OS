@@ -41,6 +41,7 @@ JARVIS OS is the brain.
 | 05 | **Memory** | Three-tier memory: session, daily notes, long-term curated |
 | 06 | **Self Evaluation** | Confidence calibration, coherence verification, resistance testing |
 | 07 | **Improvement** | Continuous improvement cycle — observe, analyze, propose, validate, implement |
+| 08 | **Load** | Context-aware engine loading — decide which engines to load, when, in what order |
 
 ### Domain Engines (V2+)
 

@@ -22,6 +22,7 @@
 | 05 | Memory Engine | ✅ Livré | 1.0 |
 | 06 | Self Evaluation Engine | ✅ Livré | 1.0 |
 | 07 | Improvement Engine | ✅ Livré | 1.0 |
+| 08 | Load Engine | ✅ Livré | 1.0 |
 
 ### Checklist V1
 - [x] Dépôt GitHub dédié
