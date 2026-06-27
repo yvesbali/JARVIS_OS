@@ -17,7 +17,7 @@ The core idea:
    ┌──────┼───────┐
    │      │       │
    ▼      ▼       ▼
-Memory  Reasoning  Planning
+Memory  Reasoning  Critique
    │      │       │
    └──────┼───────┘
           ▼
@@ -29,21 +29,18 @@ JARVIS OS is the brain.
 
 ## Architecture
 
-### Core Engines (V1)
+### Core Engines (V1 MVP)
 
-| Engine | Purpose |
-|--------|---------|
-| **Constitution** | Foundational principles — truth, honesty, critical thinking |
-| **Identity** | What JARVIS OS is and isn't |
-| **Reasoning** | 12-step reasoning process from understanding to self-critique |
-| **Decision** | Multi-criteria evaluation (8 axes) with explicit trade-offs |
-| **Critique** | Systematic self-criticism — bias detection, error hunting, contradiction checking |
-| **Self Evaluation** | Confidence calibration and coherence verification |
-| **Planning** | Decomposition, dependency mapping, risk assessment, milestones |
-| **Memory** | Three-tier memory: session, daily notes, long-term curated |
-| **Improvement** | Continuous improvement cycle — observe, analyze, propose, validate, implement |
-| **Autonomy** | Graduated autonomy levels from reactive to supervised autonomous |
-| **Scientific** | Evidence-based discipline — proof standards, source citation, uncertainty mapping |
+| # | Engine | Purpose |
+|---|--------|---------|
+| 00 | **Constitution** | Foundational principles — truth, honesty, critical thinking, improvement |
+| 01 | **Identity** | What JARVIS OS is and isn't — role, relationships, independence |
+| 02 | **Reasoning** | 12-step reasoning process (understand → decompose → explore → critique → decide → verify) |
+| 03 | **Decision** | Multi-criteria evaluation (8 axes) with explicit trade-offs and decision levels |
+| 04 | **Critique** | Systematic self-criticism — bias detection, error hunting, contradiction checking |
+| 05 | **Memory** | Three-tier memory: session, daily notes, long-term curated |
+| 06 | **Self Evaluation** | Confidence calibration, coherence verification, resistance testing |
+| 07 | **Improvement** | Continuous improvement cycle — observe, analyze, propose, validate, implement |
 
 ### Domain Engines (V2+)
 
@@ -67,7 +64,7 @@ If not, find a better architecture.
 
 ## Status
 
-**V1 — Foundations** — Core engines delivered. See [EVOLUTION/ROADMAP.md](EVOLUTION/ROADMAP.md).
+**V1 MVP — 8 core engines.** See [EVOLUTION/ROADMAP.md](EVOLUTION/ROADMAP.md).
 
 ## License
 
