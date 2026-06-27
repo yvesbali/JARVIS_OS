@@ -1,71 +1,83 @@
 # JARVIS OS
 
-**Cognitive Operating System — Model-agnostic AI agent framework**
+**Cognitive Operating System — Mission-centric, model-agnostic AI agent framework**
 
 ## What is JARVIS OS?
 
-JARVIS OS is not a chatbot. It's a cognitive operating system designed to survive changes in AI models.
+JARVIS OS is not a chatbot. It's a cognitive operating system centered on the user's real missions.
 
 The core idea:
 
 ```
-         You
-          │
-          ▼
-     JARVIS OS
-          │
-   ┌──────┼───────┐
-   │      │       │
-   ▼      ▼       ▼
-Memory  Reasoning  Critique
-   │      │       │
-   └──────┼───────┘
-          ▼
-   GPT / GLM / Claude / ...
+            USER MISSIONS
+                 │
+     ┌───────────┼───────────┐
+     │           │           │
+  Content     Travel      Dev  ...
+     │           │           │
+     └───────────┼───────────┘
+                 │
+          LOAD ENGINE
+                 │
+     ┌───────────┼───────────┐
+     │           │           │
+  Reasoning   Decision   Critique  ...
+     │           │           │
+     └───────────┼───────────┘
+                 │
+          CONSTITUTION + IDENTITY
+                 │
+         GPT / GLM / Claude / ...
 ```
 
-AI models are interchangeable compute engines.  
-JARVIS OS is the brain.
+Missions drive loading. Engines provide reasoning. Models are interchangeable compute.
 
 ## Architecture
 
-### Core Engines (V1 MVP)
+### Layer 1 — Missions (user-centric)
+
+| # | Mission | Priority | Description |
+|---|---------|----------|-------------|
+| 10 | **Daily Life** | Base | Organization, reminders, smart home, health |
+| 11 | **Content Creation** | **Priority** | YouTube → Blogger → SEO → Social media → Newsletter |
+| 12 | **Travel** | **Priority** | Road trips, itineraries, weather, budget, logistics |
+| 13 | **Development** | Active | Python, GitHub, scripts, automation |
+| 14 | **Research** | Active | Analysis, investigation, market watch |
+| 15 | **Investment** | Active | PMU, probabilistic analysis, value betting |
+| 16 | **Automation** | Transversal | Workflows, agents, publishing pipelines, validation |
+
+### Layer 3 — Core Engines (universal)
 
 | # | Engine | Purpose |
 |---|--------|---------|
-| 00 | **Constitution** | Foundational principles — truth, honesty, critical thinking, improvement |
-| 01 | **Identity** | What JARVIS OS is and isn't — role, relationships, independence |
-| 02 | **Reasoning** | 12-step reasoning process (understand → decompose → explore → critique → decide → verify) |
-| 03 | **Decision** | Multi-criteria evaluation (8 axes) with explicit trade-offs and decision levels |
-| 04 | **Critique** | Systematic self-criticism — bias detection, error hunting, contradiction checking |
-| 05 | **Memory** | Three-tier memory: session, daily notes, long-term curated |
-| 06 | **Self Evaluation** | Confidence calibration, coherence verification, resistance testing |
-| 07 | **Improvement** | Continuous improvement cycle — observe, analyze, propose, validate, implement |
-| 08 | **Load** | Context-aware engine loading — decide which engines to load, when, in what order |
-
-### Domain Engines (V2+)
-
-PMU, Python, GitHub, YouTube, Photo/Video, Health, Travel — each as a plugin, not a dependency.
+| 00 | **Constitution** | Foundational principles — truth, honesty, critical thinking |
+| 01 | **Identity** | User profile, missions, proactivity rules |
+| 02 | **Reasoning** | 12-step reasoning process |
+| 03 | **Decision** | 8-criteria evaluation grid with decision levels |
+| 04 | **Critique** | Bias detection, error hunting, contradiction checking |
+| 05 | **Memory** | Three-tier memory system |
+| 06 | **Self Evaluation** | Confidence calibration, coherence checks |
+| 07 | **Improvement** | Continuous improvement cycle |
+| 08 | **Load Engine** | Mission-centric context loading |
 
 ## Principles
 
 1. **Truth** — Never invent. Distinguish facts from hypotheses from opinions.
-2. **Intellectual honesty** — Disagree when warranted. Propose better solutions.
-3. **Critical thinking** — Actively seek errors, biases, omissions, contradictions.
+2. **Intellectual honesty** — Disagree when warranted.
+3. **Critical thinking** — Actively seek errors, biases, contradictions.
 4. **Continuous improvement** — Every interaction is an opportunity to evolve.
-5. **Robustness over elegance** — Choose what works durably over what looks impressive.
+5. **Robustness over elegance** — Choose what works durably.
 6. **Modularity** — Every engine is independent, replaceable, testable.
 7. **Simplicity** — Complexity is a cost, not a virtue.
+8. **Mission-centric** — Load only what the mission requires.
 
 ## Design rule
 
 > **"Will this architecture still be relevant in ten years?"**
 
-If not, find a better architecture.
-
 ## Status
 
-**V1 MVP — 8 core engines.** See [EVOLUTION/ROADMAP.md](EVOLUTION/ROADMAP.md).
+**V1.1 — 9 engines + 7 missions.** See [EVOLUTION/ROADMAP.md](EVOLUTION/ROADMAP.md).
 
 ## License
 
