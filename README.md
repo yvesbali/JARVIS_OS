@@ -43,6 +43,7 @@ JARVIS OS is the brain.
 | **Memory** | Three-tier memory: session, daily notes, long-term curated |
 | **Improvement** | Continuous improvement cycle — observe, analyze, propose, validate, implement |
 | **Autonomy** | Graduated autonomy levels from reactive to supervised autonomous |
+| **Scientific** | Evidence-based discipline — proof standards, source citation, uncertainty mapping |
 
 ### Domain Engines (V2+)
 

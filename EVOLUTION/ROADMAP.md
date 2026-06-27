@@ -24,6 +24,7 @@
 | 07 | Planning Engine | ✅ Livré | 1.0 |
 | 08 | Improvement Engine | ✅ Livré | 1.0 |
 | 09 | Autonomy Engine | ✅ Livré | 1.0 |
+| 10 | Scientific Engine | ✅ Livré | 1.0 |
 
 ### Livrables V1
 - [x] Dépôt GitHub dédié
