@@ -43,13 +43,16 @@ Chaque information est classée :
 - **✅** Destinations : Norvège, Lofoten, Alpes, Dolomites, Tyrol, Slovénie, Écosse, Canaries
 - **✅** Bivouac et hôtel — les deux selon contexte
 - **✅** Voyage souvent solo
-- **🔄** Préfère les routes panoramiques aux autoroutes
-- **🔄** Préfère les routes panoramiques aux musées
-- **🔄** Après une longue journée de route, privilégie parfois un hôtel
-- **🔄** Préfère un camping calme à un grand complexe
-- **🔄** Rythme : max ~400 km/jour, étapes réalistes
-- **❓** Heure de départ habituelle le matin ?
-- **❓** Préférence étapes courtes nombreuses vs étapes longues moins nombreuses ?
+- **✅** Préfère les routes panoramiques aux autoroutes
+- **✅** Préfère les routes panoramiques aux musées
+- **✅** Après une longue journée de route, privilégie parfois un hôtel
+- **✅** Préfère un camping calme à un grand complexe
+- **✅** Rythme : max ~400 km/jour, étapes réalistes
+- **✅** Heure de départ variable — Jarvis doit proposer une heure réaliste selon météo, distance, fatigue, route, captation et lumière
+- **✅** Ne pas supposer une heure de départ fixe
+- **✅** Peut réserver à l'avance pour les grosses étapes, mais aussi improviser en road trip
+- **✅** Jarvis doit toujours proposer : option réservée à l'avance + option dernière minute + plan B en cas de fatigue, pluie ou imprévu
+- **✅** Privilégier : routes panoramiques, cols, paysages grandioses, lacs, cascades, points de vue, lieux photo/vidéo, routes moto intéressantes — plutôt que musées ou visites urbaines, sauf demande explicite
 - **❓** Tolérance au froid / pluie en moto ?
 
 ---
@@ -58,13 +61,15 @@ Chaque information est classée :
 
 - **✅** Parking moto sécurisé = critère indispensable
 - **✅** Rapport qualité-prix important
+- **✅** Critères prioritaires : parking, sécurité, calme, douche correcte, accès facile
+- **✅** Pas de luxe recherché — propre, calme, fonctionnel
+- **✅** Si fatigué après une grosse journée → privilégie l'hôtel
+- **✅** Camping = plutôt économique si possible
+- **✅** Hôtel = bon rapport qualité/prix, pas luxe
 - **🔄** Préfère la proximité avec la route / itinéraire
 - **🔄** Un lever de soleil à proximité = bonus significatif (opportunité de tournage)
 - **🔄** WiFi important (upload, recherche, communication)
-- **❓** Budget moyen par nuit hôtel ?
-- **❓** Budget moyen par nuit camping ?
-- **❓** Préférence Booking direct vs arrivée sans réservation ?
-- **❓** Accepte les auberges de jeunesse / chambres d'hôtes ?
+- **❓** Budget précis par nuit (varie par pays — à ajuster par destination)
 
 ---
 
@@ -85,17 +90,19 @@ Chaque information est classée :
 ## 5. Préférences photo / vidéo
 
 - **✅** DJI Action 6, Blackview Xplore X1, INNOVV, Vivo X80 Pro
+- **✅** DJI Mini 5 Pro (drone)
 - **✅** DaVinci Resolve — niveau avancé
 - **✅** Sensibilité aux vignettes et présentation visuelle
 - **✅** Style réaliste
+- **✅** Format : narration/voyage/récit LCDMH — raconter une histoire, faire découvrir les paysages, routes, cols, villages, ambiances
+- **✅** Ton authentique et naturel, pas marketing agressif
 - **🔄** Golden hour (lever/coucher) = moment de captation prioritaire
 - **🔄** Time-lapse utilisés en montage
 - **🔄** Caméras INNOVV pour captation roulage en continu
 - **🔄** DJI Action pour POV et action
 - **🔄** Vivo X80 Pro pour photos statiques
-- **❓** Utilise un drone actuellement ? Si oui, lequel ?
+- **🔄** DJI Mini 5 Pro pour plans aériens
 - **❓** Longueur moyenne des vidéos YouTube ?
-- **❓** Préférence format vlog narré vs montage rythmé sans voix ?
 
 ---
 
@@ -106,10 +113,12 @@ Chaque information est classée :
 - **✅** Réseaux sociaux = amplification
 - **✅** Positionnement : honnêteté, retour d'expérience, pas de placement produit aveugle
 - **✅** Ton : direct, humain, concret, franc, utile
+- **✅** Volume de publication variable — à ne pas figer
+- **✅** Objectif principal : transformer chaque vidéo en contenu complet (YouTube + Blogger + SEO + réseaux)
+- **✅** Newsletter = option, pas par défaut — proposer seulement si pertinent
 - **🔄** Publication souvent le soir ou le week-end
 - **🔄** La chaîne complète est rarement faite en une fois (vidéo d'abord, article plus tard)
 - **🔄** Les codes promo et liens affiliation sont intégrés a posteriori
-- **❓** Newsletter active actuellement ? Fréquence ?
 - **❓** Publie-t-il sur TikTok régulièrement ou ponctuellement ?
 - **❓** Pinterest utilisé activement ou en auto ?
 
@@ -173,18 +182,12 @@ Chaque information est classée :
 Ces points nécessitent une confirmation d'Yves pour passer de ❓ à ✅ :
 
 ### Voyage
-- Budget hébergement par nuit
-- Heure de départ habituelle
-- Tolérance froid/pluie
-- Préférence réservation vs improvisation
+- Tolérance froid/pluie en moto
 
 ### Contenu
-- Volume de publication cible
-- Temps moyen par vidéo
 - Longueur moyenne des vidéos
-- Format préféré (vlog narré vs montage rythmé)
-- Newsletter active ?
-- Drone utilisé ?
+- TikTok : régulier ou ponctuel ?
+- Pinterest : actif ou auto ?
 
 ### Technique
 - Seuil d'automatisation acceptable
@@ -219,3 +222,4 @@ Chaque modification significative du modèle est documentée avec date et raison
 | Date | Modification | Raison |
 |------|-------------|--------|
 | 2026-06-27 | Création V1.0 | Basé sur USER.md, MEMORY.md, conversations du 27/06 |
+| 2026-06-27 | Mise à jour V1.1 | Réponses Yves : budget, drone DJI Mini 5 Pro, format narré, volume variable, newsletter option, heure départ variable, réservation flexible |

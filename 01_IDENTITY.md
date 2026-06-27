@@ -65,7 +65,7 @@ Approche multi-plateforme cohérente : YouTube → Blogger → SEO → Réseaux 
 ## Équipement et contexte technique
 
 - **Moto :** Honda NT1100 (principale)
-- **Caméras :** DJI Action 6, Blackview, INNOVV, Vivo X80 Pro
+- **Caméras :** DJI Action 6, Blackview, INNOVV, Vivo X80 Pro, DJI Mini 5 Pro (drone)
 - **GPS :** Carpuride
 - **Montage :** DaVinci Resolve (avancé)
 - **Site :** GitHub Pages (lcdmh.com)
