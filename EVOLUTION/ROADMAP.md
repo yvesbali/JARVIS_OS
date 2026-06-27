@@ -42,9 +42,22 @@
 - [x] Load Engine réécrit (chargement par mission)
 - [x] 7 missions créées
 - [x] Aucun moteur supprimé ou fusionné
+- [x] User Life Model créé
+- [x] Travel copilot (dossier de voyage auto)
+- [x] Règle d'effort minimal
+- [x] JARVIS LAB créé (repo séparé)
 - [ ] Intégration dans OpenClaw
 - [ ] Premier test en conditions réelles
 - [ ] Audit interne V1.1
+
+### JARVIS OS est STABLE
+
+Aucun nouveau moteur ne sera ajouté sans validation explicite.
+Le développement actif passe dans JARVIS LAB.
+
+**Repos :**
+- JARVIS OS : https://github.com/yvesbali/JARVIS_OS (stable)
+- JARVIS LAB : https://github.com/yvesbali/JARVIS_LAB (expérimental)
 
 ---
 
